@@ -16,3 +16,9 @@ function incrementarButton() {
     contadorElemento.textContent = contador;
     console.log(contador);
 }
+
+function contadorReset() {
+    contador = 0;
+    contadorElemento.textContent = contador;
+    console.log(contador);
+}

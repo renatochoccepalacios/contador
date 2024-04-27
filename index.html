@@ -63,6 +63,14 @@
             align-items: center;
             font-size: 20px;
         }
+        #reset {
+            padding: 10px 15px;
+    background: #0473a9;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+        }
     </style>
     <div class="contador-contenedor">
         <div class="title-contenedor">
@@ -74,6 +82,8 @@
             <p id="contador">0</p>
             <button id="incrementar" class="button-contador" onclick="incrementarButton()">+</button>
         </div>
+        <button id="reset" onclick="contadorReset()" class="button-reset">reset</button>
+
     </div>
     <script src="app.js"></script>
 </body>
